@@ -1,0 +1,472 @@
+{
+  "by_boundary": {
+    "cart": 48629,
+    "order": 52787
+  },
+  "by_category": {
+    "arts-crafts-music": 4053,
+    "automotive-parts": 4033,
+    "baby-kids": 4035,
+    "bags-accessories": 4089,
+    "books-stationery": 4065,
+    "clothing-adult": 4044,
+    "computers-accessories": 4028,
+    "consumer-electronics": 4028,
+    "food-non-alcohol": 4073,
+    "footwear": 4008,
+    "furniture": 4120,
+    "garden-outdoor-home": 4030,
+    "general-merchandise": 4013,
+    "gifts-collectibles": 4088,
+    "haircare-fragrance": 4109,
+    "home-decor-textiles": 4057,
+    "jewelry-watches": 4041,
+    "kitchen-dining": 4066,
+    "non-prescription-health": 4045,
+    "personal-care": 4100,
+    "pet-supplies": 4079,
+    "skincare-makeup": 4072,
+    "sports-fitness": 4032,
+    "tools-hardware": 4037,
+    "toys-games": 4071
+  },
+  "by_end_reason": {
+    "cart_ready": 44812,
+    "gave_up": 14365,
+    "order_placed": 42104,
+    "step_cap": 94,
+    "time_cap": 41
+  },
+  "by_kind": {
+    "baseline": 97439,
+    "designed_failure": 3977
+  },
+  "by_outcome": {
+    "CORRECT_REFUSAL": 792,
+    "NO_ANSWER": 20,
+    "RIGHT": 65806,
+    "RIGHT_BY_LUCK": 3039,
+    "WRONG": 19307,
+    "WRONG_HIDDEN": 4572,
+    "WRONG_REFUSAL": 7880
+  },
+  "by_source": {
+    "abo": 6415,
+    "abo,lazada": 45805,
+    "abo,lazada,wands": 11028,
+    "abo,wands": 1217,
+    "lazada": 29849,
+    "lazada,wands": 4659,
+    "wands": 2443
+  },
+  "by_split": {
+    "test_cross_store": 10334,
+    "test_cross_template": 9118,
+    "train": 77765,
+    "validation": 4199
+  },
+  "by_transaction_state": {
+    "bought_right": 29139,
+    "bought_wrong": 12965,
+    "cart_not_right": 9796,
+    "cart_right_handoff": 22601,
+    "cart_right_no_handoff": 12427,
+    "checkout_incomplete": 8173,
+    "no_cart": 3805,
+    "refused_correctly": 792,
+    "stopped_for_buyer": 153,
+    "stopped_payment_designed": 1365,
+    "stopped_stock_gone": 91,
+    "stopped_unshippable": 109
+  },
+  "bytes_per_episode": {
+    "messages": 6525,
+    "reference": 1253,
+    "stores": 1,
+    "turns": 7013,
+    "wire": 6470
+  },
+  "canary": "20aee5de-abcd-57b1-9c7d-8e5bbb7e311a",
+  "categories": [
+    "arts-crafts-music",
+    "automotive-parts",
+    "baby-kids",
+    "bags-accessories",
+    "books-stationery",
+    "clothing-adult",
+    "computers-accessories",
+    "consumer-electronics",
+    "food-non-alcohol",
+    "footwear",
+    "furniture",
+    "garden-outdoor-home",
+    "general-merchandise",
+    "gifts-collectibles",
+    "haircare-fragrance",
+    "home-decor-textiles",
+    "jewelry-watches",
+    "kitchen-dining",
+    "non-prescription-health",
+    "personal-care",
+    "pet-supplies",
+    "skincare-makeup",
+    "sports-fitness",
+    "tools-hardware",
+    "toys-games"
+  ],
+  "data_from": "2026-10-17",
+  "data_through": "2026-10-22",
+  "distinct_openings": 28086,
+  "episodes": 101416,
+  "excluded_bundles": 1145,
+  "files": {
+    "messages": {
+      "bytes": 661619714,
+      "files": 100
+    },
+    "reference": {
+      "bytes": 127086419,
+      "files": 4
+    },
+    "stores": {
+      "bytes": 87570,
+      "files": 1
+    },
+    "turns": {
+      "bytes": 711250123,
+      "files": 6
+    },
+    "wire": {
+      "bytes": 656185051,
+      "files": 5
+    }
+  },
+  "input_bundles": 111749,
+  "judge_version": "judge-1.0",
+  "labels_version": "1.1",
+  "leaks": [],
+  "licences": {
+    "abo": "CC-BY-4.0",
+    "lazada": "Apache-2.0",
+    "wands": "MIT"
+  },
+  "per_category": null,
+  "rates": {
+    "boundary": {
+      "cart": {
+        "episodes": 48629,
+        "grounded_success": 0.7203,
+        "success": 0.7341
+      },
+      "order": {
+        "episodes": 52787,
+        "grounded_success": 0.5971,
+        "success": 0.6429
+      }
+    },
+    "category": {
+      "arts-crafts-music": {
+        "episodes": 4053,
+        "grounded_success": 0.6326,
+        "success": 0.662
+      },
+      "automotive-parts": {
+        "episodes": 4033,
+        "grounded_success": 0.6695,
+        "success": 0.694
+      },
+      "baby-kids": {
+        "episodes": 4035,
+        "grounded_success": 0.6657,
+        "success": 0.6855
+      },
+      "bags-accessories": {
+        "episodes": 4089,
+        "grounded_success": 0.6569,
+        "success": 0.6953
+      },
+      "books-stationery": {
+        "episodes": 4065,
+        "grounded_success": 0.6157,
+        "success": 0.6396
+      },
+      "clothing-adult": {
+        "episodes": 4044,
+        "grounded_success": 0.6053,
+        "success": 0.6494
+      },
+      "computers-accessories": {
+        "episodes": 4028,
+        "grounded_success": 0.6485,
+        "success": 0.6688
+      },
+      "consumer-electronics": {
+        "episodes": 4028,
+        "grounded_success": 0.612,
+        "success": 0.6457
+      },
+      "food-non-alcohol": {
+        "episodes": 4073,
+        "grounded_success": 0.6531,
+        "success": 0.6747
+      },
+      "footwear": {
+        "episodes": 4008,
+        "grounded_success": 0.625,
+        "success": 0.6766
+      },
+      "furniture": {
+        "episodes": 4120,
+        "grounded_success": 0.6898,
+        "success": 0.7235
+      },
+      "garden-outdoor-home": {
+        "episodes": 4030,
+        "grounded_success": 0.6789,
+        "success": 0.7042
+      },
+      "general-merchandise": {
+        "episodes": 4013,
+        "grounded_success": 0.629,
+        "success": 0.6554
+      },
+      "gifts-collectibles": {
+        "episodes": 4088,
+        "grounded_success": 0.67,
+        "success": 0.6986
+      },
+      "haircare-fragrance": {
+        "episodes": 4109,
+        "grounded_success": 0.6775,
+        "success": 0.705
+      },
+      "home-decor-textiles": {
+        "episodes": 4057,
+        "grounded_success": 0.6907,
+        "success": 0.7313
+      },
+      "jewelry-watches": {
+        "episodes": 4041,
+        "grounded_success": 0.7117,
+        "success": 0.7481
+      },
+      "kitchen-dining": {
+        "episodes": 4066,
+        "grounded_success": 0.6872,
+        "success": 0.7233
+      },
+      "non-prescription-health": {
+        "episodes": 4045,
+        "grounded_success": 0.6341,
+        "success": 0.6663
+      },
+      "personal-care": {
+        "episodes": 4100,
+        "grounded_success": 0.63,
+        "success": 0.6585
+      },
+      "pet-supplies": {
+        "episodes": 4079,
+        "grounded_success": 0.6509,
+        "success": 0.683
+      },
+      "skincare-makeup": {
+        "episodes": 4072,
+        "grounded_success": 0.6599,
+        "success": 0.6849
+      },
+      "sports-fitness": {
+        "episodes": 4032,
+        "grounded_success": 0.7088,
+        "success": 0.7339
+      },
+      "tools-hardware": {
+        "episodes": 4037,
+        "grounded_success": 0.6601,
+        "success": 0.6797
+      },
+      "toys-games": {
+        "episodes": 4071,
+        "grounded_success": 0.6399,
+        "success": 0.6777
+      }
+    },
+    "kind": {
+      "baseline": {
+        "episodes": 97439,
+        "grounded_success": 0.657,
+        "success": 0.6878
+      },
+      "designed_failure": {
+        "episodes": 3977,
+        "grounded_success": 0.6352,
+        "success": 0.6593
+      }
+    },
+    "platform_pack": {
+      "bigcommerce": {
+        "episodes": 11344,
+        "grounded_success": 0.6654,
+        "success": 0.6901
+      },
+      "generic": {
+        "episodes": 11574,
+        "grounded_success": 0.675,
+        "success": 0.7019
+      },
+      "magento": {
+        "episodes": 11282,
+        "grounded_success": 0.6779,
+        "success": 0.7046
+      },
+      "medusa": {
+        "episodes": 10674,
+        "grounded_success": 0.6343,
+        "success": 0.6728
+      },
+      "prestashop": {
+        "episodes": 11251,
+        "grounded_success": 0.671,
+        "success": 0.6968
+      },
+      "saleor": {
+        "episodes": 11414,
+        "grounded_success": 0.6578,
+        "success": 0.6862
+      },
+      "shopify": {
+        "episodes": 11222,
+        "grounded_success": 0.6538,
+        "success": 0.6852
+      },
+      "vendure": {
+        "episodes": 11548,
+        "grounded_success": 0.6539,
+        "success": 0.681
+      },
+      "woocommerce": {
+        "episodes": 11107,
+        "grounded_success": 0.6141,
+        "success": 0.6599
+      }
+    },
+    "rail": {
+      "None": {
+        "episodes": 48629,
+        "grounded_success": 0.7203,
+        "success": 0.7341
+      },
+      "acp_delegated": {
+        "episodes": 5135,
+        "grounded_success": 0.5914,
+        "success": 0.646
+      },
+      "ap2_mandates": {
+        "episodes": 8071,
+        "grounded_success": 0.7005,
+        "success": 0.7159
+      },
+      "mpp": {
+        "episodes": 15009,
+        "grounded_success": 0.5577,
+        "success": 0.6141
+      },
+      "shop_pay": {
+        "episodes": 1795,
+        "grounded_success": 0.5967,
+        "success": 0.6379
+      },
+      "ucp_psp": {
+        "episodes": 22777,
+        "grounded_success": 0.5876,
+        "success": 0.6357
+      }
+    },
+    "surface": {
+      "acp_rest+ucp_rest": {
+        "episodes": 5135,
+        "grounded_success": 0.5914,
+        "success": 0.646
+      },
+      "ap2+ucp_rest": {
+        "episodes": 8071,
+        "grounded_success": 0.7005,
+        "success": 0.7159
+      },
+      "ucp_mcp": {
+        "episodes": 26904,
+        "grounded_success": 0.6793,
+        "success": 0.7054
+      },
+      "ucp_mcp+mpp": {
+        "episodes": 7524,
+        "grounded_success": 0.5565,
+        "success": 0.6112
+      },
+      "ucp_rest": {
+        "episodes": 23734,
+        "grounded_success": 0.6798,
+        "success": 0.7074
+      },
+      "ucp_rest+mpp": {
+        "episodes": 7485,
+        "grounded_success": 0.559,
+        "success": 0.617
+      },
+      "webmcp": {
+        "episodes": 22563,
+        "grounded_success": 0.668,
+        "success": 0.6895
+      }
+    }
+  },
+  "reference_episodes": 10132,
+  "relabeled": 14888,
+  "release": "carttrace-100k",
+  "rows": {
+    "messages": {
+      "test_cross_store": 10334,
+      "test_cross_template": 9118,
+      "train": 77765,
+      "validation": 4199
+    },
+    "reference": {
+      "test_cross_store": 1027,
+      "test_cross_template": 896,
+      "train": 7812,
+      "validation": 397
+    },
+    "stores": {
+      "full": 1044
+    },
+    "turns": {
+      "test_cross_store": 335499,
+      "test_cross_template": 279287,
+      "train": 2494534,
+      "validation": 134435
+    },
+    "wire": {
+      "test_cross_store": 162452,
+      "test_cross_template": 135544,
+      "train": 1203785,
+      "validation": 64580
+    }
+  },
+  "sandbox_spec": "v1s-9706931d3f3d",
+  "scrub": {
+    "pseudonym": 5828520,
+    "scrub.agent_profile": 845800,
+    "scrub.buyer_ip": 858,
+    "scrub.card_number": 10,
+    "scrub.private_address": 3,
+    "scrub.seller_phone": 392,
+    "scrub.user_agent": 1122295
+  },
+  "select_seed": "carttrace-select-v1",
+  "sources": 51,
+  "split_rule": "seed 'split-v1': test_cross_store holds every store whose keyed hash is below 0.1; test_cross_template, among the other stores, whole template families taken in keyed-hash order up to 0.1 of those episodes; validation, among the rest, every task whose keyed hash is below 0.05; train the rest",
+  "stores": 1044,
+  "turns_median": 39,
+  "version": "v1",
+  "worlds": 1044
+}

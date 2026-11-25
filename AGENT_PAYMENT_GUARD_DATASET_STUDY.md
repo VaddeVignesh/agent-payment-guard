@@ -1,15 +1,8 @@
----
-cursor:
-  subagentId: "bc-1cee3507-0974-5dad-96cd-7693222eb6e2"
----
+
 
 # Agent Payment Guard dataset study
 
-Measured from the files on disk on 25 November 2026 (Asia/Calcutta). Parquet figures were counted with DuckDB. JSON and JSONL figures were counted by parsing every record. Nothing in this note was copied from a row count we did not recompute, except where a sentence says the figure is printed in `stats.json` for a table that is not on disk.
 
-Message text was not loaded into Python. DuckDB scanned it for lengths and for a few phrases. Where a single episode is quoted, that row was opened. A 2,000-row DuckDB sample is marked where it is used. The validation-split message roles are the whole validation split, not a sample.
-
-The data directory is `/agent/repos/tmp-07ab763d4c216da4/downloads/`. This study does not add or change anything under that directory.
 
 ## 1. Project background
 
